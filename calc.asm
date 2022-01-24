@@ -116,7 +116,7 @@ l4:
         jg      l5              ;if X4 is greater than avg then jump
         inc     cnt             ;else incrememnt counter
 l5:     
-	    ret	
+	ret	
 calc    endp
 
 getSum  proc                        
